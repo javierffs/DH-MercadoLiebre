@@ -1,0 +1,19 @@
+{
+  "name": "dh-mercadoliebre",
+  "version": "1.0.0",
+  "description": "Ejercicio de Mercado Liebre",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git push -u origin mainhttps://github.com/javierffs/DH-MercadoLiebre.git"
+  },
+  "author": "javierffs",
+  "license": "ISC"
+}
