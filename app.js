@@ -10,11 +10,12 @@ app.use(express.static(pathPublic));
 }
 ); */
 
-app.listen(process.env.PORT || 3000, function() {
-    console.log("Servidor corriendo");
+app.listen(process.env.PORT || 3000, function() { 
+        console.log("Servidor corriendo");
 })
 app.get('/home', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/home.html'))
 }
 );
+
 
